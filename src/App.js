@@ -1,28 +1,13 @@
 import './App.css';
+import Diena from "./Diena";
 
 function App() {
   return (
-    <div className="App">
-      <table id="mainTable">
-          <tr>
-            <td>a</td>
-            <td>b</td>
-          </tr>
-          <tr>
-            <td>c</td>
-            <td>d</td>
-          </tr>
-          <tr>
-            <td>e</td>
-            <td>f</td>
-          </tr>
-          <tr>
-            <td>gdd</td>
-            <td>h</td>
-          </tr>
-      </table>
-    </div>
+    <>
+      <Diena />
+    </>
   );
 }
 
 export default App;
+
